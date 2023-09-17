@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Oxanium;
+}
+.heading{
+    background-image: url(./pic/mountains-7ddde89.jpg);
+    width:100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav_bar{
+    width: 100%;
+}
+.logo{
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.smenu  {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap; 
+    text-decoration: none;
+    float: right;
+}
+.hala{
+    border-color:cyan;
+    background-color:rgb(145, 250, 7);
+    width: 140px;
+    text-transform: uppercase;
+    height:30px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.hala:hover{
+    border-color:lawngreen;
+    background-color:rgb(255, 224, 47);
+    color:white;
+}
+#nd{
+    text-align: center;
+    padding-top: 200px;
+    color:black;
+    font-size:20px;
+    font-family: Oxanium;
+}
+.smemu-item{
+    color:rgb(78, 67, 67);
+    text-decoration: none;
+    margin:20px;
+    display: block;
+    line-height: 30px;
+}
+.but{
+    display:flex;
+    width: 100%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.col1{
+    display: block;
+    border-color:darkred;
+    width: 160px;
+    text-transform: uppercase;
+    height:60px;
+    line-height:60px;
+    cursor: pointer;
+    margin-right: 30px;
+    text-align: center;
+    border: 1px solid darkred;
+    text-decoration: none;
+}
+.col1:hover{
+    border-color: aqua;
+    background-color:skyblue;
+    color:white;
+}
+.col2{
+    display: block;
+    border-color: darksalmon;
+    background-color:mediumaquamarine;  
+    color:white;
+    width: 160px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 30px;
+    line-height:60px;
+    text-align: center;
+    border: 1px solid darkred;
+    text-decoration: none;
+ }
+.col2:hover{
+    border-color: dodgerblue;
+    background-color:coral;
+    color:white;
+}
+#service{
+    width: 100%;
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+#service .img-service{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 40px;
+    list-style-type: none;
+}
+.pic1{
+    background-image: url(./pic/green-leafed-trees-during-fog-time-167684.jpg);
+    height: 300px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 30%;
+}
+.pic2{
+    background-image: url(./pic/bird-s-eye-view-photography-of-green-forest-1208379.jpg);
+    height: 300px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 30%;
+}
+.pic3{
+    background-image: url(./pic/green-grass-field-and-mountain-1034887-768x508.jpg);
+    height: 300px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 30%;
+}
+.pic4{
+    text-decoration: none;
+    color:white;
+    font-size: 30px; 
+}
+.pic1:hover,.pic2:hover,.pic3:hover{
+    border: 10px solid orange;
+}
+.bet1{
+    box-sizing: border-box;
+    justify-content:space-around;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 25px;
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+.bet2-1{
+    box-sizing: border-box;  
+    text-align: justify;
+}
+.bet2{
+    margin-top: 40px;
+    width: 50%;
+}
+#bet3{
+    background-image: url(./pic/rough-horn-2146181_1280.jpg);
+    width:100%;
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+#bet3 h3{
+    padding-top: 100px;
+     font-size:30px;
+     color: white;
+}
+#bet3 p {
+    font-size:30px;
+    padding: 70px 300px;
+    color: white ;
+}
+#picture{
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+}
+#picture .picture-row{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20px 0;
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+.pic_item{
+    width: 30%;
+}
+.bet-4{
+    border-color:cyan;
+    background-color:greenyellow;
+    width: 160px;
+    text-transform: uppercase;
+    height:60px;
+    cursor: pointer;
+    margin-right: 30px;
+    margin: 40px 0;
+}
+.bet-4:hover{
+    border-color: burlywood;
+    background-color:deepskyblue;
+    color:white;
+}
+.bet-5{
+    border-color:chartreuse;
+    background-color: aliceblue;
+    width: 160px;
+    text-transform: uppercase;
+    height:60px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.bet-5:hover{
+    border-color: cornflowerblue;
+    background-color: darkcyan;
+    color:white;
+}
+.betw{
+    box-sizing: border-box;
+    justify-content:space-around;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 25px;
+}
+.betw4{
+    margin-top: 60px;
+    width: 50%;
+}
+.betw4 h2 {
+    margin-left: 20px;
+}
+.betw4 p {
+    margin-right: 20px;
+}
+#it{
+    text-align:center;
+    padding-top: 300px;
+    font-size: 70px;
+    font-family: Oxanium;
+}
+#footer {
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+    color:black;   
+}
+.footer-content{
+    padding: 40px 80px;
+    box-sizing: border-box;
+    width: 30%;
+}
+.footer-content h3{
+    margin-bottom: 30px;
+}
+#footer a{
+    color: black;
+    text-decoration: none;
+}
+#footer ul{
+    list-style-type: none;
+}
+
+
+#container{
+    display: flex;
+    justify-content:center;
+    padding:100px 0;
+    width: 80%;
+}
+#container-item1 a{
+    color: black;
+    text-decoration: none;
+    
+}
+#container-item1 a:hover{
+    color:#1a6c7a;
+}
+#container-item1{
+    padding-right : 100px;
+}
+#container-item2{
+    padding-left:100px;
+}
+.input-type{
+    padding: 12px;
+    height: 24px;
+    width: 500px;
+    margin: 10px 0;
+
+}
+.stitle{
+    margin-top: 30px;
+}
+.title{
+   margin: 30px 0;
+}
+.map{
+    width: 100%;
+    height: 800px;
+}
+.btn-submit{
+    padding: 16px 40px;
+    text-transform: uppercase;
+    font-size: 12px;
+    box-sizing: border-box;
+    border: solid 2px #1a6c7a;
+    background-color: white;
+    color:#1a6c7a;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 400px 50px;
+
+}
+.anh-hoi{
+    width: 600px;
+}
+.item1{
+    padding:20px 0;
+    font-size: 28px;
+    font-weight: 500;
+}
+.item2{
+    padding: 0 0 50px 0;
+}
+.nhan-nut{
+    padding: 16px 40px;
+    text-transform: uppercase;
+    font-size: 12px;
+    box-sizing: border-box;
+    border: solid 2px #1a6c7a;
+    background-color: white;
+    color:#1a6c7a;
+    
+}
+.nhan-nut:hover{
+    background-color: #1a6c7a;
+    color: white
+}
+.img2{
+    width: 600px;
+    margin-right: 30px;
+}
+#big{
+    padding: 100px 0;
+    background-color: #f3f9fb;
+}
+#faq{
+    text-align: center;
+}
+#faq>h2{
+    font-size: 30px;
+    padding: 0 500px   ; 
+    font-weight: 500;
+}
+#accordionExample{
+    padding: 0 500px;
+}
